@@ -6,6 +6,7 @@ phases:
       - npm install
   build:
     commands:
+      - npm start
       - npm install -g pm2
       - pm2 start index.js
 artifacts:
