@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - npm install
-      - node index.js
   build:
     commands:
       - npm install -g pm2
